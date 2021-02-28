@@ -1,0 +1,17 @@
+table{
+    width:100%;
+    height: 500px;
+    border-spacing: 0 !important;
+    .leftRow{
+        width:200px; 
+        border: 1px solid black;
+    }
+    .centerRow{
+        min-width: 100px;
+        border: 1px solid black;
+    }
+    .rightRow{
+        width:300px;  
+        border: 1px solid black;
+    }
+}

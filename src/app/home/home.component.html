@@ -1,0 +1,25 @@
+<div>
+    <table>
+        <tr>
+            <td class="leftRow">
+                <div class="inputBox" >
+                    <input type="text" [(ngModel)]="numInput" (keyup)="calculated()">
+                </div>
+              
+
+            </td>
+            <td class="centerRow">
+                <select [(ngModel)]="calOption" (keyup)="calculated()">
+                    <option value="1">isPrime</option>
+                    <option value="2">isFibonacci</option>
+                </select>
+
+            </td>
+            <td class="rightRow">
+             {{this.results}}
+
+            </td>
+        </tr>
+    </table>
+
+</div>

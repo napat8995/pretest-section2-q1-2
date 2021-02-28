@@ -1,0 +1,18 @@
+<div>
+    <div>
+        <input type="text" placeholder="search here"  (keyup)="filterData($event)">
+
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Category</th>
+            </tr>
+            <tr *ngFor = "let row of cateFilter">
+                <td>
+                    {{row}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
